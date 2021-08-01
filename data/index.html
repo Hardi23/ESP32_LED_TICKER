@@ -42,19 +42,19 @@
     <div class="content">
         <h1>LED TICKER</h1>
         <form action="/" method="POST">
-            <h2>Intensität</h2>
+            <h2>Intensity</h2>
             <input type="range" name="intensity" min="0" max="15" value="%CUR_INTENSITY%" id="intensity"><br>
             <div id="sliderValue">%CUR_INTENSITY%</div>
-            <h2>Geschwindigkeit</h2>
+            <h2>Speed</h2>
             <input type="range" name="speed" min="-50" max="50" value="%CUR_SPEED_MOD%" id="speed"><br>
-            <h2>Anzeige-Modus</h2>
+            <h2>Display-Mode</h2>
             <input type="radio" id="mining" name="mode" value="mining" class="form_left" %MINING_CHECKED%>
             <input type="radio" id="textRadio" value="text" name="mode" %TEXT_CHECKED%><br>
             <label for="mining" class="form_left">Mining</label>
             <label for="textRadio" >Text</label><br><br>
-            <label class="hide" for="text" id="textLabel">Text für Display:</label><br>
+            <label class="hide" for="text" id="textLabel">Text to display:</label><br>
             <input class="hide" type="text" id="text" name="text"><br><br>
-            <input type="submit" value="Senden">
+            <input type="submit" value="Send">
         </form>
     </div>
     <footer>
