@@ -5,7 +5,6 @@ Ticker made from an ESP32 and a Led Matrix
 * ESP32
 * MAX72XX Led Matrix (p.e. MAX7219 on ebay)
 
-_That's it!_
 
 ## Libraries used
 * MD_MAX72XX
@@ -135,5 +134,6 @@ _That's it!_
    ```
    %PLACEHOLDER_NAME%
    ```
-## That's about it feel free to ask questions if you encounter problems
-### Cheers Josh
+## The given IP will be displayed on startup
+
+_That's about it feel free to ask questions if you encounter problems, Cheers Josh_
