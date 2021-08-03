@@ -57,7 +57,7 @@ const char* httpPassword = "securePassword!";
 const String apiKey PROGMEM = "yourAPIKey";
 const char headerAPI[] PROGMEM = "X-CMC_PRO_API_KEY";
 const char url[] PROGMEM = "https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest?symbol=ETH&convert=EUR";
-const char minerAPI[] PROGMEM = "https://api.ethermine.org/miner/0378B4659D64187B6C2Fd388b87FEdf5E603bDe2/currentStats";
+const char minerAPI[] PROGMEM = "https://api.ethermine.org/miner/<your_wallet_address>/currentStats";
 const char hostname[] PROGMEM = "LED Panel";
 const char jsonAttributeData[] PROGMEM = "data";
 const char emptyJSON[] PROGMEM = "{}";
